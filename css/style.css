@@ -1,0 +1,45 @@
+.bola {
+    margin-top: 100px;
+    width: 10%;
+    animation: animatioBola 10s infinite;
+}
+
+@keyframes animatioBola {
+    0% {opacity: 0%; }
+    100% {opacity: 100%; transform: translateX(1000px)}
+}
+
+#logo {
+    width: 10%;
+    margin-top: 100px;
+    animation: animationLogo 10s infinite;
+}
+
+@keyframes animationLogo {
+    from {
+        transform: scale(0) translateX(0);
+    }
+    to {
+        transform: scale(100%) translateX(1000px);
+    }
+
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: #eaeaea;
+    color: #1a73e8;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    right: 500px;
+    
+}
+
+button:hover {
+
+    background-color: #1a73e8;
+    color: #fff
+}
